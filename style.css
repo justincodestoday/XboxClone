@@ -1,0 +1,135 @@
+.background-black {
+    background-color: black;
+}
+
+.calendar-after:hover {
+    text-decoration: underline;
+    color: #9bf00b;
+}
+
+.img-transition-after {
+    position: absolute;
+}
+
+.transition-after {
+    position: relative;
+    padding-top: 40rem;
+}
+
+.transition-before-sideways {
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 60rem;
+}
+
+.padding-sizing {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.button-center {
+    display: flex;
+    justify-content: start;
+}
+
+.box-sizing {
+    padding: 150px;
+}
+
+.image-zoom-1 {
+    background-image: url(images/grid-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.image-zoom-1:hover {
+    transform: scale(1.5);
+}
+
+.image-zoom-2 {
+    background-image: url(images/grid-2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.image-zoom-2:hover {
+    transform: scale(1.5);
+}
+
+.image-zoom-3 {
+    background-image: url(images/grid-3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.image-zoom-3:hover {
+    transform: scale(1.5);
+}
+
+.image-zoom-4 {
+    background-image: url(images/grid-4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.image-zoom-4:hover {
+    transform: scale(1.5);
+}
+
+.hyperlink-hidden:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.hyperlink-hidden-black:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+@media (max-width: 1199.98px) {
+    .img-transition-after {
+        position: relative;
+    }
+
+    .transition-after {
+        position: relative;
+        padding-top: 0;
+    }
+
+    .transition-before-sideways {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        color: white;
+        text-align: center;
+    }
+
+    .button-center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .text-hidden {
+        display: none;
+    }
+}
